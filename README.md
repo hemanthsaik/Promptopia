@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptopia
 
-## Getting Started
+Promptopia is an open-source AI prompting tool designed for the modern world, allowing users to discover, create, and share creative prompts. It is built using Next.js for both the frontend and backend, and utilizes MongoDB as the database. The authentication system is implemented using NextAuth.js. This project was developed with the teaching and guidance provided by JavaScript Mastery.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+To install and run Promptopia locally, please follow the steps below:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/Promptopia.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+cd Promptopia
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the dependencies:
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- Discover creative prompts
+- Create and share prompts
+- User authentication with NextAuth.js
+- MongoDB integration for database management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Promptopia relies on the following dependencies:
+
+- Next.js: The framework used for building the frontend and backend of the application.
+- MongoDB: A NoSQL database used for data storage and management.
+- NextAuth.js: An authentication library for Next.js applications.
+
+## Usage
+
+To use Promptopia, follow these steps:
+
+1. Access the Promptopia website by visiting http://localhost:3000 in your browser.
+
+2. Browse the available prompts to discover new ideas or create your own.
+
+3. Sign in or create an account using the provided authentication system.
+
+4. Once signed in, you can create and share prompts.
+
+## NPM Commands
+
+The following npm commands are available for Promptopia:
+
+- npm run dev: Starts the development server.
+- npm run build: Builds the production-ready application.
+- npm run start: Starts the production server.
+
+## Acknowledgments
+
+Promptopia was built with the assistance of JavaScript Mastery. Their teachings and guidance were instrumental in the development of this project. Special thanks to JavaScript Mastery for their support.
+
+## License
+
+This project is licensed under the MIT License.
